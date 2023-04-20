@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">        
     <link rel="stylesheet" type="text/css" media="screen" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/pagelayout.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/table.css"/>
     <title>Music API</title>	
     <!-- styles and JS here --> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
@@ -48,20 +49,26 @@
                     $result = mysqli_query($conn,$sql);
                     $row = mysqli_fetch_assoc($result);
                 ?>
-            <table>
-                <tr>
-                    <th>ArtistID</th>
-                    <th>ArtistName</th>
-                    <th>Album</th>
-                    <th>Sales</th>
-                </tr>
-                <tr>
-                    <td><?php echo $row['ArtistID']; ?></td>
-                    <td><?php echo $row['ArtistName']; ?></td>
-                    <td><?php echo $row['Album']; ?></td>
-                    <td><?php echo $row['Sales']; ?></td>
-                </tr>
-            </table>
+            <div class="row justify-content-center">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope ="col">ArtistID</th>
+                            <th scope ="col">ArtistName</th>
+                            <th scope ="col">Album</th>
+                            <th scope ="col">Sales</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><?php echo $row['ArtistID']; ?></td>
+                            <td><?php echo $row['ArtistName']; ?></td>
+                            <td><?php echo $row['Album']; ?></td>
+                            <td><?php echo $row['Sales']; ?></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div> 
 
             <!-- Sudath Nawagamuwage -->
