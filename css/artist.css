@@ -1,0 +1,23 @@
+/* CSS styles for the module table */
+.artist-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .artist-table th, .artist-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .artist-table th {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .artist-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
