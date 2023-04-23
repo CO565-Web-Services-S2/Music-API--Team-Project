@@ -1,5 +1,11 @@
 
-        <h1 class="text-light mb-0">My Website</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/mainnav.css">
+</head>
+<body>
+<h1 class="text-light mb-0">My Website</h1>
       </div>
     </div>
   </header>
@@ -35,6 +41,6 @@
     <h2></h2>
     <p></p>
   </main>
-
-  
-  
+</body>
+</body>
+</html>
