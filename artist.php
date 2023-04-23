@@ -5,6 +5,7 @@
     include("_includes/dbconnect.inc");
     include("_includes/functions.inc");
     
+    // Include the header and navigation templates
     echo template("templates/partials/header.php");
     echo template("templates/partials/nav.php");
     
@@ -39,6 +40,7 @@
         // render the template
         echo template("templates/default.php", $data);
     }
+    // Include the footer template
     echo template("templates/partials/footer.php");
 ?>
            
