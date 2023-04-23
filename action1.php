@@ -44,10 +44,13 @@
                     </div>
                 </nav>
                 <?php 
+                    require("_includes/apicallexample.inc");
                     include("_includes/dbconnect.inc");
                     $sql = "SELECT * FROM artist WHERE ArtistName='$_POST[Name]'";
                     $result = mysqli_query($conn,$sql);
                     $row = mysqli_fetch_assoc($result);
+
+                    $imageURL = CallAPI("GET", "https://theaudiodb.com/api/v1/json/2/album.php?i=" . $row['ArtistID']);
                 ?>
             <div class="row justify-content-center">
                 <table class="table table-striped">
@@ -65,6 +68,7 @@
                             <td><?php echo $row['ArtistName']; ?></td>
                             <td><?php echo $row['Album']; ?></td>
                             <td><?php echo $row['Sales']; ?></td>
+                            <td><?php echo  $imageURL; ?></td>
                         </tr>
                     </tbody>
                 </table>
