@@ -10,11 +10,35 @@
     echo template("templates/partials/nav.php");
     
 ?>
+<style>
+    .search-box {
+        top: 25%;
+        left: 50%;
+        width: 500px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
 
-<form class="d-flex" role="search" method="post" action="artist.php">
-    <label for="name"></label>
-    <input class="form-control me-2" type="text" placeholder="Search..." id="name" name="Name" />
-    <button class="btn btn-outline-success" type="submit">Submit</button>
+    .btn.btn-search {
+        border-radius: 0;
+        height: 50px;
+        background: #6c757d;
+        color: #fff;
+    }
+</style>
+
+<form class="form-container" role="search" method="post" action="artist.php">
+    <div class="col-md-6 col-lg-6 col-11 mx-auto my-auto search-box">
+        <div class="input-group">
+            <label for="name"></label>
+            <input class="form-control" type="text" placeholder="Search by artist name..." id="name" name="Name" autofocus="autofocus" autocomplete="off" />
+            <span class="input-group-btn">
+                <button class="btn btn-search" type="submit" id="search-button">
+                    <i class="fa fa-search icon search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
 </form>
 
 <?php
