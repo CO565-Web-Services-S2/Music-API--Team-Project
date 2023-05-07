@@ -67,9 +67,11 @@
             </div>    
         </div>        
         <div id="results-container"></div>
+        <div id="resultsapi"></div>
     </from>
     <!-- Include JavaScript file -->
-    <script src="js/artistscript.js"></script>   
+    <script src="js/artistscript.js"></script>
+    <script src="js/ourapi.js"></script>    
     <script src="js/overlay.js"></script>   
 </body>
 

@@ -43,7 +43,7 @@
 
 <?php
     if (isset($_POST['Name'])) {
-        $sql = "SELECT * FROM artist WHERE ArtistName='" . $_POST['Name'] . "'";
+        $sql = "SELECT * FROM album WHERE ArtistID='" . $_POST['Name'] . "'";
         $result = mysqli_query($conn,$sql);
 
         $data = array();
