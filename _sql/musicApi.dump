@@ -57,3 +57,30 @@ ALTER TABLE `student`
 
 ALTER TABLE `studentmodules`
  ADD PRIMARY KEY (`studentid`,`modulecode`);
+
+
+
+--
+-- Dumping data for table `album`
+--
+
+
+ CREATE TABLE `album` (
+  `ArtistID` int(11) NOT NULL,
+  `Album` text NOT NULL,
+  `Released` date NOT NULL,
+  `Sales` int(11) NOT NULL,
+  `ArtistName` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
+INSERT INTO `album` (`ArtistID`, `Album`, `Released`, `Sales`, `ArtistName`) VALUES
+(111305, 'a girl like me', '2006-04-10', 54215684, 'rihanna'),
+(111305, 'loud', '2006-12-11', 5684, 'rihanna'),
+(111718, 'views', '2016-12-11', 545684, 'drake'),
+(111718, 'views', '2013-01-11', 51245684, 'drake'),
+(111718, 'Scorpion', '2018-01-13', 5684, 'drake'),
+(115909, 'onlysee', '1997-01-13', 123123, 'sia'),
+(115909, 'healing is diffcult', '2002-05-28', 123123, 'sia');
+COMMIT;
