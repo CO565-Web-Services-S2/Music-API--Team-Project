@@ -21,13 +21,13 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="artist.php">Search</a>
+            <a class="nav-link" href="ourapi.php">Search</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="api.php">API</a>
+            <a class="nav-link" href="Audioapi.php">API</a>
           </li>
           <li class="nav-item d-flex" >
             <a class="nav-link" href="#">Login</a>

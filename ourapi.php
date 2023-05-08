@@ -63,7 +63,6 @@
                     <i class="fa fa-search icon search"></i>
                     </button>
                  </span>   
-                <!-- <button class="btn btn-outline-secondary btn-sm" type="button" id="search-button">Search</button> -->
             </div>    
         </div>        
         <div id="resultsAPI"></div>
