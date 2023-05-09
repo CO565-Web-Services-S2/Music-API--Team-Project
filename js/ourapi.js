@@ -7,7 +7,7 @@ const resultsapi = document.getElementById("resultsAPI");
 searchButton.addEventListener("click", () => {
     const artistId = searchInput.value.trim();
     if (artistId !== "") {
-      fetch(`http://localhost/dashboard/MusicAPI-TeamProject/Our_API/album/read.php?ArtistID=${artistId}`)
+      fetch(`http://localhost/MusicAPI-TeamProject/Our_API/album/read.php?ArtistID=${artistId}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
