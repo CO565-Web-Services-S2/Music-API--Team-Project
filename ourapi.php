@@ -50,13 +50,12 @@
 
 </style>
 <body class="bg"> 
-    <div class="overlay" id="overlay" onclick="resetBg()"></div>
         <form>
         <!-- <h1 class="text-center">Storing API data</h1> -->
         <div class="col-md-6 col-lg-6 col-11 mx-auto my-auto search-box">
             <div class="input-group form-container">
                 <input type="text" class="form-control" placeholder="Search artist by id" aria-label="Enter Artist ID" aria-describedby="button-addon2"
-                 id="search-input" autofocus="autofocus" autocomplete="off" onclick="setBgToDark()" >
+                 id="search-input" autofocus="autofocus" autocomplete="off">
                  <span class="input-group-btn">
                     <button class="btn btn-search" type="button" id="search-button">
                     <!-- <img src="images/search.png" width ="10"> -->
@@ -69,7 +68,6 @@
     </from>
     <!-- Include JavaScript file -->
     <script src="js/ourapi.js"></script>  
-    <script src="js/overlay.js"></script>   
 </body>
 
 <?php
