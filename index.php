@@ -10,7 +10,9 @@
    // Set the welcome message
    $data['content'] = '<div class="row justify-content-center">
          <div class="col-lg-6 text-center">
-            <h2>Welcome to our Music API</h2>              
+            <h2>Welcome to our Music API</h2>
+            <p>Search for your favorite artists and get information about their albums, 
+                  songs, and more!</p>              
          </div>
       </div>';
    
