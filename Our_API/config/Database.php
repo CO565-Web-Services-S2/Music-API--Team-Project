@@ -2,9 +2,9 @@
 class Database{
 	
 	private $host  = 'localhost';
-	private $user  = 'root';
-	private $password   = "";
-	private $database  = "sale"; 
+	private $user  = 'sudath';
+	private $password   = "test123";
+	private $database  = "db3_musicapi"; 
     
 	public function getConnection(){		
         $conn = new mysqli($this->host, $this->user, $this->password, $this->database);
