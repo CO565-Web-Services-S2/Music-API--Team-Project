@@ -32,27 +32,20 @@
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-
+   /* Style the resultAlbum h2*/
   .artist-resultAlbum {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  
+  /* Style the resultReleased p */
   .artist-resultReleased {
     font-size: 16px;
     margin-bottom: 5px;
   }
+  /* Style the resultSales 9 */
   .artist-resultSales {
     font-size: 16px;
     margin-bottom: 5px;
   }
 
-  /* #resultsAPI h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
   
-  #resultsAPI p {
-    font-size: 16px;
-    margin-bottom: 5px;
-  } */

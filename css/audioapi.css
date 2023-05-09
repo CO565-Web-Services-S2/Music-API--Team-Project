@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
   } */
-.bg{
+  .bg{
     background-color:white;    
 }
 .search-box{
@@ -37,31 +37,38 @@
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 50px; /* increase the margin-bottom value */
-  }
-  
-  /* Style the artist name */
-  .artist-name {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
-  
-  /* Style the artist image */
-  .artist-image {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+
+/* Style the artist name */
+.artist-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Style the artist image */
+.artist-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem; /* add margin bottom to separate from the name */
+}
+
+.artist-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
 }
   
   /* Style the artist biography */
   .artist-bio {
     font-size: 1.2rem;
-    line-height: 1.5;
-    text-align: justify;
-    margin: 0 auto;
-    max-width: 600px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 600px;
 }
-

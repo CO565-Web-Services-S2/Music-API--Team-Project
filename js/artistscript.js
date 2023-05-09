@@ -29,11 +29,13 @@ searchButton.addEventListener("click", () => {
           // display the artist information in the results container
           const artist = data.artists[0];
           resultsContainer.innerHTML = `
-          <div class="artist-info">
+          
             <h2 class="artist-name">${artist.strArtist}</h2>
-            <img class="artist-image" src="${artist.strArtistThumb}" alt="${artist.strArtist}">
+            <div class="artist-image-container">
+                  <img class="artist-image" src="${artist.strArtistThumb}" alt="${artist.strArtist}">
+          </div>
             <p class="artist-bio">${artist.strBiographyEN}</p>
-          </div>`;
+          `;
         })
         .catch((error) => {
           console.error("Error fetching data:", error);
