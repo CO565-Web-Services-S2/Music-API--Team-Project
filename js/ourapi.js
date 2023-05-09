@@ -6,7 +6,7 @@ const resultsapi = document.getElementById("resultsAPI");
 // add an event listener to the search button that executes when it's clicked
 searchButton.addEventListener("click", () => {
     const artistId = searchInput.value.trim();
-    if (artistId !== "") {
+    if (artistId !== "") {    
       fetch(`http://localhost/MusicAPI-TeamProject/Our_API/album/read.php?ArtistID=${artistId}`)
         .then((response) => {
           if (!response.ok) {
