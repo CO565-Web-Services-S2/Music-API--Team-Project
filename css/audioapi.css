@@ -20,3 +20,7 @@
    -webkit-box-shadow:none;
     box-shadow: none;    
 }
+.date {
+    font-weight: bold;
+    color: #555;
+  }
