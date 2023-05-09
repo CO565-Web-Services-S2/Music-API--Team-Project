@@ -30,10 +30,11 @@ searchButton.addEventListener("click", () => {
           const artist = data.album[0];
           // data.sort(function(a, b){return a - b});
           resultsapi.innerHTML = `
-            <h2>Album: ${artist.Album}</h2>
-            <p>Released: ${artist.Released}</p>
-            <p>Sales: ${artist.Sales}</p>
-          `;
+          <div class="artist-result">
+            <h2 class="artist-resultAlbum">Album: ${artist.Album}</h2>
+            <p class="artist-resultReleased">Released: ${artist.Released}</p>
+            <p class="artist-resultSales">Sales: ${artist.Sales}</p>
+          </div> `;
         })
         .catch((error) => {
           console.error("Error fetching data:", error);
