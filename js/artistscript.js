@@ -1,4 +1,4 @@
-
+// artistscript.js
 // get references to the search button, search input, and results container
 const searchButton = document.getElementById("search-button");
 const searchInput = document.getElementById("search-input");
@@ -29,10 +29,11 @@ searchButton.addEventListener("click", () => {
           // display the artist information in the results container
           const artist = data.artists[0];
           resultsContainer.innerHTML = `
-            <h2>${artist.strArtist}</h2>
-            <img src="${artist.strArtistThumb}" alt="${artist.strArtist}">
-            <p>${artist.strBiographyEN}</p>
-          `;
+          <div class="artist-info">
+            <h2 class="artist-name">${artist.strArtist}</h2>
+            <img class="artist-image" src="${artist.strArtistThumb}" alt="${artist.strArtist}">
+            <p class="artist-bio">${artist.strBiographyEN}</p>
+          </div>`;
         })
         .catch((error) => {
           console.error("Error fetching data:", error);
