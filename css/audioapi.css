@@ -1,0 +1,22 @@
+.bg{
+    background-color:white;    
+}
+.search-box{
+    top:30%;
+    left:50%;
+    width: 500px;
+    /* border-radius: 30px; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.btn.btn-search{
+    border-radius:0;
+    height: 50px;
+    background: #6c757d;
+    color: #fff;
+}
+.search-input:focus{
+    outline: none;
+   -webkit-box-shadow:none;
+    box-shadow: none;    
+}
