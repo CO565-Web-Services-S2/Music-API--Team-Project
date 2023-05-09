@@ -8,44 +8,6 @@
     echo template("templates/partials/header.php");
     echo template("templates/partials/nav.php");
 ?>
-<style>
-.bg{
-    background-color:white;
-    background-image: ;
-    height: ;
-    background-position: ;
-    background-repeat: ;
-    background-size: ;
-}
-.search-box{
-    top:30%;
-    left:50%;
-    width: 500px;
-    /* border-radius: 30px; */
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-.btn.btn-search{
-    border-radius:0;
-    height: 50px;
-    background: #6c757d;
-    color: #fff;
-}
-.search-input:focus{
-    outline: none;
-   -webkit-box-shadow:none;
-    box-shadow: none;    
-}
-/* .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #000;
-    opacity: 0.2;
-    height: 100%;
-    width: 100%;
-} */
-</style>
 <body class="bg"> 
  
         <form>
