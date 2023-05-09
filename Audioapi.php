@@ -17,7 +17,6 @@
     background-repeat: ;
     background-size: ;
 }
-
 .search-box{
     top:30%;
     left:50%;
@@ -37,7 +36,7 @@
    -webkit-box-shadow:none;
     box-shadow: none;    
 }
-.overlay{
+/* .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -45,9 +44,7 @@
     opacity: 0.2;
     height: 100%;
     width: 100%;
-}
-
-
+} */
 </style>
 <body class="bg"> 
  
