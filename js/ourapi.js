@@ -1,3 +1,4 @@
+// ourapi.js
 // get references to the search button, search input, and results container
 const searchButton = document.getElementById("search-button");
 const searchInput = document.getElementById("search-input");
