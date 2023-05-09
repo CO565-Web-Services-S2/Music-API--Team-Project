@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">        
     <link rel="stylesheet" type="text/css" media="screen" href="css/artist.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/images.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/audioapi.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/audioapi.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/artistresults.css"/>
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/massage.css"/> -->
     
