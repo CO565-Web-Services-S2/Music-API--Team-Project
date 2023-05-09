@@ -1,8 +1,14 @@
+/* audioapi.php */
+/* Set margin and padding for all elements to 0 */
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
 .bg{
     background-color:white;    
 }
 .search-box{
-    top:30%;
+    top:20%;
     left:50%;
     width: 500px;
     /* border-radius: 30px; */
@@ -20,7 +26,42 @@
    -webkit-box-shadow:none;
     box-shadow: none;    
 }
-.date {
-    font-weight: bold;
-    color: #555;
+/* Style the container for the artist information */
+#results-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 80px;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 50px; /* increase the margin-bottom value */
   }
+  
+  /* Style the artist name */
+  .artist-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+  
+  /* Style the artist image */
+  .artist-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+  
+  /* Style the artist biography */
+  .artist-bio {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
