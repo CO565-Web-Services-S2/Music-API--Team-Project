@@ -9,7 +9,10 @@ searchButton.addEventListener
 ("click", () => {
     const artistId = searchInput.value.trim();
     if (artistId !== "") {    
-      fetch(`http://localhost/dashboard/MusicAPI-TeamProject/OUR_API/album/read.php?ArtistID=${artistId}`)
+      // Kyle location of file
+      // fetch(`http://localhost/dashboard/MusicAPI-TeamProject/OUR_API/album/read.php?ArtistID=${artistId}`)
+      // Sudath location of file
+      fetch(`http://localhost/MusicAPI-TeamProject/OUR_API/album/read.php?ArtistID=${artistId}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
