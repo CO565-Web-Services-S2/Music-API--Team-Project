@@ -21,16 +21,10 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ourapi.php">Search</a>
+            <a class="nav-link" href="ourapi.php">Search Most Bought Ablum By Artist</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Audioapi.php">API</a>
-          </li>
-          <li class="nav-item d-flex" >
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="Audioapi.php">Search Artist Details</a>
           </li>
         </ul>
       </div>
@@ -41,7 +35,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 text-center">
         <h2>Welcome to our Music API</h2>
-        <p>Search for your favorite artists and get information about their albums, songs, and more!</p>
+        <p>Search for your information about your favourite artists and get information about their most bought album</p>
       </div>
     </div>
   </main>
